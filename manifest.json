@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Weather Notifier",
+  "version": "1.0",
+  "description": "Provides timely notifications about the weather in your desired city.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "notifications",
+    "storage",
+    "alarms"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
